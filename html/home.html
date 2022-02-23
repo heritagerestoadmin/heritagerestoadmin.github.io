@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="/css/home.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="/Assets/HeritageLogo.png" alt="">
+            <a href="/html/home.html">HERITAGE</a>
+        </div>
+        
+
+        <ul>
+            <li class="choosen"><a href="/html/home.html">Home</a></li>
+            <li><a href="/html/list.html">List Transaction</a></li>
+            <li><a href="/html/package.html">Extend Package</a></li>
+            <li><a href="/html/information.html">Update Information</a></li>
+            <li><a href="/html/staff.html">List Staff</a></li>
+        </ul>
+
+        <div class="logout">
+            <a href="#popup"><img src="/Assets/turn-off.png" alt=""></a>
+        </div>
+    </div>
+
+    <!-- buat Jam -->
+    <div id="clock">
+    </div>
+    
+    <!-- buat tanggal -->
+    <div id="date">
+    </div>
+
+    <div class="main-container">
+        <div class="home-container">
+            <div class="custImg">
+                <img src="/Assets/customer.png" alt="">
+            </div>
+            <div class="text-home">
+                <div class="text1">
+                    <p>7</p>
+                </div>
+                <div class="text2">
+                    <p>Customers</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-container">
+            <div class="custImg">
+                <img src="/Assets/order-food.png" alt="">
+            </div>
+            <div class="text-home">
+                <div class="text1">
+                    <p>10</p>
+                </div>
+                <div class="text2">
+                    <p>Orders</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-container">
+            <div class="custImg">
+                <img src="/Assets/coin.png" alt="">
+            </div>
+            <div class="text-home">
+                <div class="text3">
+                    <p>Rp. 1.370.100</p>
+                </div>
+                <div class="text2">
+                    <p>Income</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <table cellspacing="0" class="scroll">
+		<thead>
+			<tr>
+				<th>No</th>
+				<th>Menu Name</th>
+				<th>Table Number</th>
+                <th>Status</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>Salad</td>
+				<td>Table 1</td>
+                <td>Served</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Salad</td>
+				<td>Table 1</td>
+                <td>Served</td>
+			</tr>
+            <tr>
+				<td>3</td>
+				<td>Salad</td>
+				<td>Table 1</td>
+                <td>Served</td>
+			</tr>
+            <tr>
+				<td>4</td>
+				<td>Salad</td>
+				<td>Table 1</td>
+                <td>Served</td>
+			</tr>
+            <tr>
+				<td>5</td>
+				<td>Salad</td>
+				<td>Table 1</td>
+                <td>Served</td>
+			</tr>
+            <tr>
+				<td>6</td>
+				<td>Salad</td>
+				<td>Table 1</td>
+                <td>Served</td>
+			</tr>
+            <tr>
+				<td>7</td>
+				<td>Salad</td>
+				<td>Table 1</td>
+                <td>Served</td>
+			</tr>
+            <tr>
+				<td>8</td>
+				<td>Salad</td>
+				<td>Table 1</td>
+                <td>Served</td>
+			</tr>
+            <tr>
+				<td>9</td>
+				<td>Salad</td>
+				<td>Table 1</td>
+                <td>Served</td>
+			</tr>
+            <tr>
+				<td>10</td>
+				<td>Salad</td>
+				<td>Table 1</td>
+                <td>Served</td>
+			</tr>
+		</tbody>
+	</table>
+
+    <div class="footer">
+        <div class="trademark">
+            &copy 2020. All Rights Reserved. Heritage
+        </div>
+        <div class="text-footer">Powered By Dinion</div>
+    </div>
+
+    <div class="popup" id="popup">
+        <div class="popup__content">
+           <div class="popup__img">
+              <a href="#" class="popup__close">&times;</a>
+           </div>
+           <div class="popup__header">
+              <h1>Log Out?</h1>
+           </div>
+           <a href="/index.html" class="btn popup__btn">Yes</a>
+    </div>
+    
+    <script src="/js/setTime.js"></script>
+</body>
+</html>
